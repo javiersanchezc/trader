@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Credenciales y datos locales (NUNCA SUBIR A GIT)
+telegram_config.json
+.env
+*.env
+api_keys.json
+
+# Salidas de ejecucion local y logs
+planes/
+ULTIMO_PLAN_DE_ACCION.txt
+*.log
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
